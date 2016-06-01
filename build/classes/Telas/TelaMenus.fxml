@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="1332.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Telas.TelaMenusController">
+  <children>
+    <MenuBar layoutY="0.0" prefWidth="1332.0" useSystemMenuBar="false" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+      <contextMenu>
+        <ContextMenu>
+          <items>
+            <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+          </items>
+        </ContextMenu>
+      </contextMenu>
+      <menus>
+        <Menu mnemonicParsing="false" text="Cadastros">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Aluno" />
+            <MenuItem mnemonicParsing="false" text="Professor" />
+            <MenuItem mnemonicParsing="false" text="Fornecedor" />
+            <MenuItem mnemonicParsing="false" text="Usuário" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Caixa">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Delete" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Relatorios">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </children>
+</AnchorPane>

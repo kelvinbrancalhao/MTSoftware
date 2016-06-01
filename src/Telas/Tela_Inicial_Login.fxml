@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="428.9999000000025" prefWidth="494.0001220703125" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Telas.Tela_Inicial_LoginController">
+  <children>
+    <ImageView fitHeight="428.999977929685" fitWidth="494.0" focusTraversable="true" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="false" smooth="true">
+      <image>
+        <Image url="@../../Imagens/LOGOLOGIN.png" />
+      </image>
+    </ImageView>
+    <TextField layoutX="14.0" layoutY="385.0" prefHeight="29.0" prefWidth="160.0" />
+    <Label layoutX="13.0" layoutY="359.0" prefWidth="71.0" text="Login:">
+      <font>
+        <Font name="System Bold" size="15.0" fx:id="x1" />
+      </font>
+      <textFill>
+        <Color blue="0.200" green="0.200" red="1.000" fx:id="x2" />
+      </textFill>
+    </Label>
+    <Label font="$x1" layoutX="183.0" layoutY="359.0" prefWidth="82.0" text="Senha:" textFill="$x2" />
+    <Button id="BT_entrar" blendMode="RED" cache="false" defaultButton="false" layoutX="358.0" layoutY="361.0" mnemonicParsing="false" onAction="#BotaoLogar" prefHeight="54.0" prefWidth="120.0" text="Entrar" textFill="BLACK">
+              <font>
+        <Font name="System Bold" size="18.0" />
+      </font>
+    </Button>
+    <PasswordField blendMode="SRC_OVER" layoutX="183.0" layoutY="385.0" prefHeight="29.0" prefWidth="160.0" />
+  </children>
+</AnchorPane>

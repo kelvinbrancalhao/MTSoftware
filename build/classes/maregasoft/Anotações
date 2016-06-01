@@ -1,0 +1,20 @@
+Teste para Cabeçalho a ser colocado dentro das classe principal 
+
+
+Anotações de abreviaturas nas classes de objetos para identificação dos tipos 
+de fichas
+
+DC = Dados Cadastrais (Serve para indicar dados pessoais) como por exemplo
+endereço rg etc
+
+FP = Ficha de Pagamentos (Serve para indicar dados de pagamento) se for aluno
+refere-se a mensalidade, no caso do professor a o sistema de pagamento de salario
+
+FF = Ficha Fisiolgica (Serve para indicar dados referentes a estrutura do corpo)
+como por exemplo, braços pernas pulsos etc.
+
+CT = Cadastro de Treino (Serve para indicar os treinos montados) como por exemplo
+100 flexoes, 10 abdominais etc
+
+ES = Estoque (Refere-se aos produtos em estoque) como os produtos que serão 
+vendidos como bandagens e etc, ou produtos de manutenção como limpeza etc.
