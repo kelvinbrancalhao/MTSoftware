@@ -27,15 +27,10 @@
     </Label>
     <Label font="$x1" layoutX="183.0" layoutY="359.0" prefWidth="82.0" text="Senha:" textFill="$x2" />
     <Button id="BT_entrar" blendMode="RED" cache="false" defaultButton="false" layoutX="358.0" layoutY="361.0" mnemonicParsing="false" onAction="#BotaoLogar" prefHeight="54.0" prefWidth="120.0" text="Entrar" textFill="BLACK">
-      <font>
+              <font>
         <Font name="System Bold" size="18.0" />
       </font>
     </Button>
     <PasswordField blendMode="SRC_OVER" layoutX="183.0" layoutY="385.0" prefHeight="29.0" prefWidth="160.0" />
-    <Label id="LB_aviso" layoutX="265.0" layoutY="329.0" prefHeight="29.0" prefWidth="215.0" text="" textFill="RED">
-      <font>
-        <Font name="System Bold" size="20.0" />
-      </font>
-    </Label>
   </children>
 </AnchorPane>
