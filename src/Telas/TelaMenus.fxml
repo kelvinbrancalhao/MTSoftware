@@ -19,13 +19,13 @@
       <menus>
         <Menu mnemonicParsing="false" text="Cadastros">
           <items>
-            <MenuItem mnemonicParsing="false" text="Aluno" />
+            <MenuItem mnemonicParsing="true" onAction="#MenuCadastroAluno" text="Aluno" />
             <MenuItem mnemonicParsing="false" text="Professor" />
             <MenuItem mnemonicParsing="false" text="Fornecedor" />
             <MenuItem mnemonicParsing="false" text="Usuário" />
           </items>
         </Menu>
-        <Menu mnemonicParsing="false" text="Caixa">
+        <Menu mnemonicParsing="false" onAction="#MenuCadastroAluno" text="Caixa">
           <items>
             <MenuItem mnemonicParsing="false" text="Delete" />
           </items>
