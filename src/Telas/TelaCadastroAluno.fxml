@@ -11,13 +11,13 @@
 <AnchorPane id="AnchorPane" prefHeight="440.0" prefWidth="590.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Telas.TelaCadastroAlunoController">
   <children>
     <Region id="hbox" prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: #202020;&#10; &#10; " AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
-    <Button defaultButton="false" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color: #00cc66;" text="Cadastrar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="298.0">
+    <Button id="BT_cadastrar" defaultButton="false" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color: #00cc66;" text="Cadastrar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="298.0">
       <font>
         <Font name="System Bold" size="16.0" fx:id="x1" />
       </font>
     </Button>
-    <Button cancelButton="false" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#006699;" text="Limpar" textAlignment="CENTER" textFill="WHITE" underline="false" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="151.0" />
-    <Button cancelButton="false" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#cc0000;" text="Cancelar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+    <Button id="BT_Limpar" cancelButton="false" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#006699;" text="Limpar" textAlignment="CENTER" textFill="WHITE" underline="false" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="151.0" />
+    <Button id="BT_cancelar" cancelButton="false" font="$x1" mnemonicParsing="false" onAction="#BotaoCancelar" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#cc0000;" text="Cancelar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
     <Label layoutY="126.0" prefHeight="25.0" prefWidth="55.0" text="Nome:" AnchorPane.leftAnchor="14.0">
       <font>
         <Font size="15.0" fx:id="x2" />
@@ -32,18 +32,18 @@
     <Label font="$x2" layoutY="185.0" prefHeight="25.0" prefWidth="55.000099999997474" text="Sexo:" AnchorPane.leftAnchor="374.0" />
     <Label font="$x2" layoutY="215.0" prefHeight="25.0" prefWidth="67.0" text="Celular:" AnchorPane.leftAnchor="14.0" />
     <Label font="$x2" layoutY="215.0" prefHeight="25.0" prefWidth="85.0" text="Telefone:" AnchorPane.leftAnchor="278.0" />
-    <TextField layoutY="95.0" prefHeight="25.0" prefWidth="200.0" AnchorPane.rightAnchor="239.0" />
-    <TextField layoutX="70.0" layoutY="125.0" prefHeight="25.0" prefWidth="503.0" />
-    <TextField layoutX="55.0" layoutY="155.0" prefHeight="25.0" prefWidth="149.0" />
-    <TextField layoutX="75.0" layoutY="215.0" prefHeight="25.0" prefWidth="187.0" />
-    <TextField layoutX="155.0" layoutY="185.0" prefHeight="25.0" prefWidth="200.0" />
-    <TextField layoutX="359.0" layoutY="215.0" prefHeight="25.0" prefWidth="221.0" />
-    <TextField layoutX="314.0" layoutY="275.0" prefHeight="25.0" prefWidth="74.0" />
-    <TextField layoutY="245.0" prefHeight="25.0" prefWidth="483.0" AnchorPane.rightAnchor="10.0" />
-    <TextField layoutX="72.0" layoutY="275.0" prefHeight="25.0" prefWidth="200.0" />
+    <TextField id="TF_numeroRegistro" layoutY="95.0" prefHeight="25.0" prefWidth="200.0" AnchorPane.rightAnchor="239.0" />
+    <TextField id="TF_Nome" layoutX="70.0" layoutY="125.0" prefHeight="25.0" prefWidth="503.0" />
+    <TextField id="TF_CPF" layoutX="55.0" layoutY="155.0" prefHeight="25.0" prefWidth="149.0" />
+    <TextField id="TF_rg" layoutX="247.0" layoutY="155.0" prefHeight="25.0" prefWidth="149.0" />
+    <TextField id="TF_celular" layoutX="75.0" layoutY="215.0" prefHeight="25.0" prefWidth="187.0" />
+    <TextField id="TF_dataNascimento" layoutX="155.0" layoutY="185.0" prefHeight="25.0" prefWidth="200.0" />
+    <TextField id="TF_telefone" layoutX="359.0" layoutY="215.0" prefHeight="25.0" prefWidth="221.0" />
+    <TextField id="TF_numero" layoutX="314.0" layoutY="275.0" prefHeight="25.0" prefWidth="74.0" />
+    <TextField id="TF_endereco" layoutY="245.0" prefHeight="25.0" prefWidth="483.0" AnchorPane.rightAnchor="10.0" />
+    <TextField id="TF_bairro" layoutX="72.0" layoutY="275.0" prefHeight="25.0" prefWidth="200.0" />
     <Label font="$x2" layoutX="213.0" layoutY="155.0" prefHeight="25.0" prefWidth="37.0" text="RG:" />
-    <TextField layoutX="248.0" layoutY="155.0" prefHeight="25.0" prefWidth="149.0" />
-    <TextField layoutX="524.0" layoutY="155.0" prefHeight="25.0" prefWidth="55.0" />
+    <TextField id="tf_orgao" layoutX="524.0" layoutY="155.0" prefHeight="25.0" prefWidth="55.0" />
     <ComboBox layoutX="424.0" layoutY="186.0" prefHeight="25.0" prefWidth="113.0" promptText="" visibleRowCount="2">
       <items>
         <FXCollections fx:factory="observableArrayList">
@@ -59,11 +59,11 @@
         <Font name="System Bold" size="25.0" />
       </font>
     </Label>
-    <Button layoutX="15.0" layoutY="314.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="247.0" style="-fx-background-color: #00cc66&#10;" text="Cadastrar ficha de treino">
+    <Button id="BT_cadastrarTreino" layoutX="15.0" layoutY="314.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="247.0" style="-fx-background-color: #FFFF00&#10;" text="Cadastrar ficha de treino">
       <font>
         <Font name="System Bold" size="15.0" fx:id="x3" />
       </font>
     </Button>
-    <Button font="$x3" layoutX="273.0" layoutY="314.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="255.0" style="-fx-background-color: #00cc66&#10;" text="Cadastrar ficha fisiológica" />
+    <Button id="BT_cadastrarFicha" font="$x3" layoutX="273.0" layoutY="314.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="255.0" style="-fx-background-color: #FFFF00&#10;" text="Cadastrar ficha fisiológica" />
   </children>
 </AnchorPane>
