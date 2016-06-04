@@ -17,7 +17,7 @@
       </font>
     </Button>
     <Button id="BT_Limpar" cancelButton="false" font="$x1" mnemonicParsing="false" onAction="#BotaoLimpar" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#006699;" text="Limpar" textAlignment="CENTER" textFill="WHITE" underline="false" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="151.0" />
-    <Button id="BT_cancelar" cancelButton="false" font="$x1" mnemonicParsing="false" onAction="#BotaoCancelar" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#cc0000;" text="Cancelar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+    <Button id="BT_cancelar" cancelButton="true" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#cc0000;" text="Cancelar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
     <Label layoutY="126.0" prefHeight="25.0" prefWidth="55.0" text="Nome:" AnchorPane.leftAnchor="14.0">
       <font>
         <Font size="15.0" fx:id="x2" />

@@ -6,7 +6,7 @@ import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
 
 
-public class TelaCadastroFisiologicoController implements Initializable {
+public class TelaPesquisarAlunoController implements Initializable {
 
 
     @Override
