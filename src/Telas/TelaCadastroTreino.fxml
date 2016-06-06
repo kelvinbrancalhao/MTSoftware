@@ -17,17 +17,17 @@
     </Label>
     <TextField id="TF_NIDAluno" layoutX="108.0" layoutY="70.0" prefHeight="25.0" prefWidth="76.0" />
     <TextField id="TF_nomeAluno" layoutX="240.0" layoutY="71.0" prefHeight="25.0" prefWidth="199.0" />
-    <Button id="BT_PesquisaAluno" layoutX="443.0" layoutY="68.0" mnemonicParsing="false" onAction="#BotaoCadastrarFicha" prefHeight="30.0" prefWidth="127.0" style="-fx-background-color: #FFFF00&#10;" text="Pesquisar">
+    <Button id="BT_PesquisaAluno" layoutX="443.0" layoutY="68.0" mnemonicParsing="false" onAction="#BotaoProcurarAluno" prefHeight="30.0" prefWidth="127.0" style="-fx-background-color: #FFFF00&#10;" text="Pesquisar">
       <font>
         <Font name="System Bold" size="15.0" />
       </font>
     </Button>
-    <Button id="BT_cadastrar" defaultButton="false" mnemonicParsing="false" onAction="#BotaoCadastrar" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color: #00cc66;" text="Cadastrar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="295.0">
+    <Button id="BT_cadastrar" defaultButton="false" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color: #00cc66;" text="Cadastrar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="295.0">
       <font>
         <Font name="System Bold" size="16.0" fx:id="x1" />
       </font>
     </Button>
-    <Button id="BT_Limpar" cancelButton="false" font="$x1" mnemonicParsing="false" onAction="#BotaoLimpar" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#006699;" text="Limpar" textAlignment="CENTER" textFill="WHITE" underline="false" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="149.0" />
+    <Button id="BT_Limpar" cancelButton="false" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#006699;" text="Limpar" textAlignment="CENTER" textFill="WHITE" underline="false" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="149.0" />
     <Button id="BT_cancelar" cancelButton="true" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#cc0000;" text="Cancelar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="4.0" />
     <Region id="hbox" prefHeight="63.000099999997474" prefWidth="586.0" style="-fx-background-color: #535353;&#10; &#10; " AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
     <Label layoutX="86.0" layoutY="18.0" prefWidth="424.0" text="Cadastro de Treino do Aluno" textFill="WHITE">

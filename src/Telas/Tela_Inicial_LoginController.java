@@ -33,7 +33,7 @@ public class Tela_Inicial_LoginController implements Initializable {
         Stage appStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         appStage.hide();
         appStage.setScene(telamenusScene);
-        appStage.setTitle("Menu Principal");
+        appStage.setTitle("Menu Principal MaregaThai");
         appStage.show();
     
         

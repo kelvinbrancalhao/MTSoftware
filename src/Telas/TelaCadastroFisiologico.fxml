@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="362.0" prefWidth="575.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Telas.TelaCadastroFisiológicoController">
+<AnchorPane id="AnchorPane" prefHeight="362.0" prefWidth="575.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Telas.TelaCadastroFisiologicoController">
   <children>
     <Region id="hbox" prefHeight="70.0" prefWidth="600.0" style="-fx-background-color: #535353;&#10; &#10; " AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
     <Label layoutX="15.0" layoutY="64.0" prefHeight="25.0" prefWidth="95.0" text="Numero ID:">
@@ -17,7 +17,7 @@
     </Label>
     <TextField id="TF_NIDAluno" layoutX="105.0" layoutY="64.0" prefHeight="25.0" prefWidth="76.0" />
     <TextField id="TF_nomeAluno" layoutX="237.0" layoutY="65.0" prefHeight="25.0" prefWidth="199.0" />
-    <Button id="BT_PesquisaAluno" layoutX="440.0" layoutY="62.0" mnemonicParsing="false" onAction="#BotaoCadastrarFicha" prefHeight="30.0" prefWidth="127.0" style="-fx-background-color: #FFFF00&#10;" text="Pesquisar">
+    <Button id="BT_PesquisaAluno" layoutX="440.0" layoutY="62.0" mnemonicParsing="false" onAction="#BotaoProcurarAluno2" prefHeight="30.0" prefWidth="127.0" style="-fx-background-color: #FFFF00&#10;" text="Pesquisar">
       <font>
         <Font name="System Bold" size="15.0" />
       </font>
@@ -37,12 +37,12 @@
     <TextField layoutX="67.0" layoutY="255.0" prefHeight="25.0" prefWidth="76.0" />
     <TextField layoutX="214.0" layoutY="255.0" prefHeight="25.0" prefWidth="76.0" />
     <TextField layoutX="400.0" layoutY="255.0" prefHeight="25.0" prefWidth="76.0" />
-    <Button id="BT_cadastrar" defaultButton="false" mnemonicParsing="false" onAction="#BotaoCadastrar" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color: #00cc66;" text="Cadastrar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="296.0">
+    <Button id="BT_cadastrar" defaultButton="false" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color: #00cc66;" text="Cadastrar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="296.0">
       <font>
         <Font name="System Bold" size="16.0" fx:id="x1" />
       </font>
     </Button>
-    <Button id="BT_Limpar" cancelButton="false" font="$x1" mnemonicParsing="false" onAction="#BotaoLimpar" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#006699;" text="Limpar" textAlignment="CENTER" textFill="WHITE" underline="false" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="150.0" />
+    <Button id="BT_Limpar" cancelButton="false" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#006699;" text="Limpar" textAlignment="CENTER" textFill="WHITE" underline="false" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="150.0" />
     <Button id="BT_cancelar" cancelButton="true" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#cc0000;" text="Cancelar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="4.0" />
     <Region id="hbox" prefHeight="61.0" prefWidth="675.0" style="-fx-background-color: #535353;&#10; &#10; " AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
     <Label layoutX="77.0" layoutY="14.0" prefWidth="424.0" text="Cadastro Fisiológico do Aluno" textFill="WHITE">

@@ -5,7 +5,51 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Telas.TelaCadastroTreinoController">
-    
+<AnchorPane id="AnchorPane" prefHeight="381.0" prefWidth="586.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Telas.TelaCadastroTreinoController">
+  <children>
+    <Region id="hbox" prefHeight="70.0" prefWidth="586.0" style="-fx-background-color: #535353;&#10; &#10; " AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+    <Label layoutX="18.0" layoutY="70.0" prefHeight="25.0" prefWidth="95.0" text="Numero ID:">
+      <font>
+        <Font size="15.0" fx:id="x2" />
+      </font>
+    </Label>
+    <TextField id="TF_NIDAluno" layoutX="108.0" layoutY="70.0" prefHeight="25.0" prefWidth="76.0" />
+    <TextField id="TF_nomeAluno" layoutX="240.0" layoutY="71.0" prefHeight="25.0" prefWidth="199.0" />
+    <Button id="BT_PesquisaAluno" layoutX="443.0" layoutY="68.0" mnemonicParsing="false" onAction="#BotaoProcurarAluno" prefHeight="30.0" prefWidth="127.0" style="-fx-background-color: #FFFF00&#10;" text="Pesquisar">
+      <font>
+        <Font name="System Bold" size="15.0" />
+      </font>
+    </Button>
+    <Button id="BT_cadastrar" defaultButton="false" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color: #00cc66;" text="Cadastrar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="295.0">
+      <font>
+        <Font name="System Bold" size="16.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button id="BT_Limpar" cancelButton="false" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#006699;" text="Limpar" textAlignment="CENTER" textFill="WHITE" underline="false" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="149.0" />
+    <Button id="BT_cancelar" cancelButton="true" font="$x1" mnemonicParsing="false" prefHeight="61.0" prefWidth="140.0" style="-fx-background-color:#cc0000;" text="Cancelar" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="4.0" />
+    <Region id="hbox" prefHeight="63.000099999997474" prefWidth="586.0" style="-fx-background-color: #535353;&#10; &#10; " AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+    <Label layoutX="86.0" layoutY="18.0" prefWidth="424.0" text="Cadastro de Treino do Aluno" textFill="WHITE">
+      <font>
+        <Font name="System Bold" size="25.0" />
+      </font>
+    </Label>
+    <Label font="$x2" layoutX="188.0" layoutY="71.0" prefHeight="25.0" prefWidth="53.0" text="Nome:" />
+    <CheckBox layoutY="100.0" mnemonicParsing="false" text="Segunda-Feira" underline="true" AnchorPane.leftAnchor="13.0">
+      <font>
+        <Font name="System Bold" size="14.0" fx:id="x3" />
+      </font>
+    </CheckBox>
+    <CheckBox font="$x3" layoutY="130.0" mnemonicParsing="false" text="Terça-Feira" underline="true" AnchorPane.leftAnchor="14.0" />
+    <CheckBox font="$x3" layoutY="159.0" mnemonicParsing="false" text="Quarta-feira" underline="true" AnchorPane.leftAnchor="14.0" />
+    <CheckBox font="$x3" layoutY="280.0" mnemonicParsing="false" text="Domingo" underline="true" AnchorPane.leftAnchor="13.0" />
+    <CheckBox font="$x3" layoutY="190.0" mnemonicParsing="false" text="Quinta-Feira" underline="true" AnchorPane.leftAnchor="14.0" />
+    <CheckBox font="$x3" layoutY="220.0" mnemonicParsing="false" text="Sexta-Feira" underline="true" AnchorPane.leftAnchor="14.0" />
+    <CheckBox font="$x3" layoutY="250.0" mnemonicParsing="false" text="Sábado" underline="true" AnchorPane.leftAnchor="14.0" />
+    <Label font="$x1" layoutX="297.0" layoutY="145.0" prefWidth="140.0" text="Horário Inicio:" />
+    <Label font="$x1" layoutX="304.0" layoutY="201.0" prefWidth="113.0" text="Horário Fim:" />
+    <TextField alignment="CENTER" layoutX="320.0" layoutY="168.0" prefHeight="30.0" prefWidth="82.0" promptText="" />
+    <TextField alignment="CENTER" layoutX="320.0" layoutY="225.0" prefHeight="30.0" prefWidth="82.0" />
+  </children>
 </AnchorPane>

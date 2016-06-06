@@ -18,6 +18,7 @@ public class Main extends Application{
             Scene scene = new Scene(root,494,429);
             primaryStage.setScene(scene);
             primaryStage.show();
+            primaryStage.setTitle("Efetuar Login");
             
         }catch(Exception e){
             e.printStackTrace();

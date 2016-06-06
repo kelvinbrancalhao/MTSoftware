@@ -54,7 +54,7 @@ public class TelaCadastroAlunoController implements Initializable {
         Stage stage = new Stage();
         Scene telamenusScene = new Scene(telamenusparent);
         stage.setScene(telamenusScene);
-        stage.setTitle("tela");
+        stage.setTitle("Tela Cadastro de Ficha de Treino");
         stage.show();
         
     }
@@ -64,7 +64,7 @@ public class TelaCadastroAlunoController implements Initializable {
         Stage stage = new Stage();
         Scene telamenusScene = new Scene(telamenusparent);
         stage.setScene(telamenusScene);
-        stage.setTitle("tela");
+        stage.setTitle("Tela Cadastro de Ficha Fisiológica");
         stage.show();
         
         
