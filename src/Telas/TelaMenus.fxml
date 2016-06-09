@@ -37,5 +37,14 @@
         </Menu>
       </menus>
     </MenuBar>
+    <Pane prefHeight="85.0" prefWidth="1332.0" style="-fx-background-color:#aeaeae;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0">
+      <children>
+        <Button layoutX="7.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Button" />
+        <Button layoutX="168.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Button" />
+        <Button layoutX="329.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Button" />
+        <Button layoutX="489.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Button" />
+        <Button layoutX="649.0" layoutY="7.0" mnemonicParsing="false" prefHeight="71.99990000000253" prefWidth="152.9998779296875" text="Button" />
+      </children>
+    </Pane>
   </children>
 </AnchorPane>
