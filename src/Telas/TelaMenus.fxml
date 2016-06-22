@@ -4,6 +4,7 @@
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
 <AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="1332.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Telas.TelaMenusController">
@@ -39,12 +40,17 @@
     </MenuBar>
     <Pane prefHeight="85.0" prefWidth="1332.0" style="-fx-background-color:#aeaeae;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0">
       <children>
-        <Button layoutX="7.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Button" />
-        <Button layoutX="168.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Button" />
-        <Button layoutX="329.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Button" />
-        <Button layoutX="489.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Button" />
-        <Button layoutX="649.0" layoutY="7.0" mnemonicParsing="false" prefHeight="71.99990000000253" prefWidth="152.9998779296875" text="Button" />
+        <Button layoutX="7.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Cadastrar Aluno" />
+        <Button layoutX="168.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Pagar Mensalidade" />
+        <Button layoutX="329.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Ver Ficha Aluno" />
+        <Button layoutX="489.0" layoutY="7.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="153.0" text="Caixa" />
+        <Button layoutX="649.0" layoutY="7.0" mnemonicParsing="false" prefHeight="71.99990000000253" prefWidth="182.99997792968497" text="Relatorio Inadinplentes" />
       </children>
     </Pane>
+    <ImageView fitHeight="641.0" fitWidth="1332.0" layoutX="1.0" layoutY="109.0" pickOnBounds="true" preserveRatio="false" style="">
+      <image>
+        <Image url="@../../Imagens/imagengolpe1.jpg" />
+      </image>
+    </ImageView>
   </children>
 </AnchorPane>

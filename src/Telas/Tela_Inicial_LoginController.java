@@ -35,7 +35,6 @@ public class Tela_Inicial_LoginController implements Initializable {
         appStage.setScene(telamenusScene);
         appStage.setTitle("Menu Principal MaregaThai");
         appStage.show();
-    
         
     }
     
